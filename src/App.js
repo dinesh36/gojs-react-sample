@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import SeatingChart from "./Components/SeatingChart/SeatingChart.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <SeatingChart guestList={[
+        {key: "Tyrion Lannister"},
+        {key: "Daenerys Targaryen", plus: 3},  // dragons, of course
+        {key: "Jon Snow"}
+      ]}/>
   );
 }
 

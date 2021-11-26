@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-git remote set-url origin https://github.com/dinesh36/gojs-react-sample.git
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
